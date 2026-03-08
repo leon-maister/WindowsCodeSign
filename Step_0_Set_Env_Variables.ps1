@@ -1,0 +1,12 @@
+$env:wd="c:\Data\Signer"
+$env:Sign_Mode="PKI" #OpenSSL or PKI
+$env:OpenSSL_DLL_Signer_key="/DLL-Signer/OpenSSL/dfc-sign-key"
+$env:OpenSSL_Cert_destination_path="/DLL-Signer/OpenSSL/sign-cert"
+$env:DLL_Signer_key = "/DLL-Signer/dll-signer-root-key"
+$env:Cert_Signer_Key = "/DLL-Signer/Cert-Signer-Key"
+$env:PKI_DLL_Issuer="/DLL-Signer/PKI-DLL-Issuer"
+$env:Cert_destination_path = "/DLL-Signer/Cert"
+$env:Common_Name = "host1.leon.com"
+$env:CSR_File="akeyless_ms_sign.csr"
+$env:CERT_File="akeyless_ms_sign.cer"
+$env:Root_Key_Cert_Path="C:\Data\Signer\RootKeyCert\dfc_root_key_ca.cer"
